@@ -27,7 +27,9 @@ practices, & techniques.
 
 ## Application Architecture
 
-This server is built using these libraries, services, and tools:
+This server is built using the following main libraries, services, and tools.
+For all others and for current release dependencies please consult the
+`package.json` file.
 
 | Dependency  | Description                 |
 |-------------|-----------------------------|
