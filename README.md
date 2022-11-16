@@ -42,6 +42,8 @@ The following backend services are invoked using a REST API:
 |---------|---------------------------------------------------|
 | wakeup  | Wakes up the backend when the first FE page loads |
 
+![Wakeup](./public/wakeup.png)
+
 ## Installation & Configuration
 
 1. Clone or fork this repo using git. Don't forget that to create a runnable application you'll also need the backend.
