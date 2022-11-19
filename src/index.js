@@ -17,6 +17,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use('/', restRoutes)
 
-app.listen(process.env.PORT, () => {
-  console.log(`🚀 Server is running at ${process.env.PORT}`)
+const serverPort = process.env.PORT || 3100
+app.listen(serverPort, () => {
+  console.log(`🚀 Server is running at ${ serverPort }`)
 })
